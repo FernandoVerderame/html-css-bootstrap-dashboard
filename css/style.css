@@ -1,6 +1,56 @@
+/* Generics */
+img {
+    width: 100%;
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* !Header */
 header {
     height: 70px;
+}
+
+.navbar > div {
+    background-color: white;
+}
+
+.navbar-brand img {
+    width: 40px;
+    position: relative;
+    left: 5px;
+}
+
+.navbar-brand .logo-desktop {
+    width: 130px;
+}
+
+.search-bar {
+    margin: 0 25px;
+    background-color: #E5E5E5;
+    padding-left: 30px;
+}
+
+.search-bar.form-control::placeholder {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar form {
+    position: relative;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 12px;
+    left: 32px;
+}
+
+ul .fa-bell {
+    color: #FF8F00;
 }
 
 /* Bottom-content */
