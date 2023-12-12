@@ -15,6 +15,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 <body>
@@ -34,10 +35,26 @@
                 </form>
 
                 <ul class="d-flex mb-0 p-0 gap-lg-4">
-                    <li><a class="text-secondary d-none d-lg-inline" href="#"><i class="fa-solid fa-list-ul"></i></a></li>
-                    <li><a class="text-secondary d-none d-lg-inline" href="#"><i class="fa-solid fa-circle-question"></i></a></li>
-                    <li><a class="text-secondary d-none d-lg-inline" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
-                    <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                    <li>
+                        <a class="text-secondary d-none d-lg-inline" href="#">
+                            <i class="fa-solid fa-list-ul"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-secondary d-none d-lg-inline" href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-secondary d-none d-lg-inline" href="#">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
           </nav>
@@ -46,8 +63,34 @@
 
     <div class="bottom-content d-flex">
         <div class="sidebar">
-            <div class="top-sidebar border border-danger"></div>
-            <div class="bottom-sidebar border border-danger"></div>
+            <div class="top-sidebar border border-danger">
+                <ul class="m-0 p-0 mt-4 text-center text-lg-start ms-lg-4">
+                    <li class="py-2">
+                        <a class="text-white" href="#">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="d-none d-lg-inline ms-lg-3">Home</span>
+                        </a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-white" href="#">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="stats d-none d-lg-inline ms-lg-3">Stats</span>
+                        </a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-white" href="#">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="d-none d-lg-inline ms-lg-3">Signals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-sidebar d-flex justify-content-center align-items-center border border-danger">
+                <a class="text-white" href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="admin text-white d-none d-lg-inline ms-2">Admin</span>
+                </a>
+            </div>
         </div>
 
         <!-- !Main content -->

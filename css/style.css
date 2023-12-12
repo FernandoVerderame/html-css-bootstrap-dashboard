@@ -8,6 +8,10 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* !Header */
 header {
     height: 70px;
@@ -62,7 +66,10 @@ ul .fa-bell {
 
 /* Sidebar */
 .sidebar {
-    background-color: #000000;
+    background-color: #051E34;
+    background-image: url(/img/sidebar-bg.png);
+    background-position: center;
+    background-size: 650px;
     flex-basis: 75px;
     flex-shrink: 0;
 }
@@ -72,9 +79,19 @@ ul .fa-bell {
     height: calc(100% - 100px);
 }
 
+
+
+ul span {
+    font-weight: 500;
+}
+
 /* Bottom-sidebar*/
 .bottom-sidebar {
     height: 100px;
+}
+
+.bottom-sidebar .admin {
+    font-weight: 500;
 }
 
 /* !Main content */
