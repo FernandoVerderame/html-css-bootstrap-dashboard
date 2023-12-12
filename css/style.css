@@ -1,0 +1,41 @@
+/* !Header */
+header {
+    height: 70px;
+}
+
+/* Bottom-content */
+.bottom-content {
+    background-color: goldenrod;
+    height: calc(100vh - 70px);
+    overflow: auto;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #000000;
+    flex-basis: 75px;
+    flex-shrink: 0;
+}
+
+/* Top-sidebar */
+.top-sidebar {
+    height: calc(100% - 100px);
+}
+
+/* Bottom-sidebar*/
+.bottom-sidebar {
+    height: 100px;
+}
+
+/* !Main content */
+main {
+background-color: orange; 
+flex-grow: 1;
+overflow: auto;
+}
+
+/* Header-main */
+.header-main {
+    background-color: #1B72E8;
+    min-height: 250px;
+}
