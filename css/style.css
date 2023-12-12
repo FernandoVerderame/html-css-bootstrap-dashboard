@@ -79,8 +79,6 @@ ul .fa-bell {
     height: calc(100% - 100px);
 }
 
-
-
 ul span {
     font-weight: 500;
 }
@@ -103,6 +101,18 @@ overflow: auto;
 
 /* Header-main */
 .header-main {
+    padding: 20px 0;
     background-color: #1B72E8;
-    min-height: 250px;
+}
+
+.header-main .badge {
+    font-size: 13px;
+    background-color: #165BBA;
+    font-weight: normal;
+    padding-bottom: 8px;
+}
+
+.badge.plan {
+    position: relative;
+    bottom: 3px;
 }

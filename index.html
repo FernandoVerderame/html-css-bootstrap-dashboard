@@ -98,7 +98,37 @@
           
             <!-- Header main -->
             <div class="header-main border border-danger">
-                <div class="container">
+                <div class="container-fluid">
+                    <div class="row flex-column flex-md-row gy-4">
+                        <div class="col-12 col-md-4 order-md-1 col-lg-2 d-flex align-items-center align-items-md-baseline gap-4">
+                            <h3 class="text-white fs-6 m-0">Nuovo Studente</h3>
+                            <button class="btn btn-primary border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                              
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6 d-flex flex-column">
+                            <div class="mb-2">
+                                <h1 class="text-white d-inline fs-2 me-2">Boolean</h1>
+                                <span class="plan badge rounded-pill">Piano blaze</span>
+                            </div>
+                            <div>
+                                <span class="plan badge rounded-pill">3 app</span>
+                                <i class="fa-solid fa-angles-right text-white"></i>
+                                <span class="plan badge rounded-pill d-lg-none">+</span>
+                                <span class="plan badge rounded-pill d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="plan badge rounded-pill d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="plan badge rounded-pill d-none d-lg-inline-block">Boolean blog app</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 d-flex flex-column">
+                            <h3 class="text-white fs-6 m-0">Studenti online negli ultimi 30 minuti</h3>
+                            <div class="fs-1 text-white">125</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
