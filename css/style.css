@@ -167,3 +167,19 @@ overflow: auto;
 .card-body.title-todo {
     background-color: #F7F7F7;
 }
+
+/* Sezione grafico */
+.chart-stats p {
+    font-size: 14px;
+}
+
+.chart-stats .list-group {
+    font-size: 14px;
+}
+
+.chart-stats a {
+    font-size: 14px;
+    color: #0D6EFD;
+    text-decoration: underline;
+    font-weight: 500;
+}
