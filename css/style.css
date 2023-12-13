@@ -20,6 +20,30 @@ a {
     font-size: 10px;
 }
 
+/* Form */
+form input {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 45px;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form select {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 45px;
+}
+
+.privacy input {
+    position: relative;
+    top: 15px;
+    margin-right: 5px;
+}
+
 /* Utils */
 .border-bot {
     width: 100%;
@@ -154,6 +178,10 @@ overflow: auto;
     position: relative;
     bottom: 3px;
 }
+
+.body-offcanvas {
+    overflow: auto;
+} 
 
 /* Tabella classi */
 #table-classroom .card {

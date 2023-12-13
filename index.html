@@ -108,12 +108,71 @@
                     <div class="row flex-column flex-md-row gy-4">
                         <div class="col-12 col-md-4 order-md-1 col-lg-2 d-flex align-items-center align-items-md-baseline gap-4">
                             <h3 class="text-white fs-6 m-0">Nuovo Studente</h3>
-                            <button class="btn btn-primary border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
+                            <div>
+                                <button class="btn btn-primary border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
                               
-                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                                
+                                <div class="offcanvas offcanvas-end vw-100" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h2 class="offcanvas-title fs-3" id="offcanvasExampleLabel">Inserisci un nuovo studente</h2>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <form action="https://marcolanci.it/boolean/read_form.php" method="GET">
+                                            <div class="row row-gap-4">
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="firstname">Nome</label>
+                                                    <input type="text" id="firstname" name="firstname" placeholder="">
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="lastname">Cognome</label>
+                                                    <input type="text" id="lastname" name="lastname" placeholder="">
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="email">Email</label>
+                                                    <input type="email" id="email" name="email" placeholder="">
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="password">Password</label>
+                                                    <input type="password" id="password" name="password" placeholder="" pattern="">
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="address">Indirizzo</label>
+                                                    <input type="text" id="address" name="address" placeholder="">
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="city">Città</label>
+                                                    <input type="text" id="city" name="city" placeholder="">
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="country">Stato</label>
+                                                    <select name="country" id="country" required>
+                                                      <option value="">Scegli...</option>
+                                                      <option value="it">Italia</option>
+                                                      <option value="fr">Francia</option>
+                                                      <option value="es">Spagna</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="cap">CAP</label>
+                                                    <input type="text" id="cap" name="cap" placeholder="">
+                                                </div>
+                                                <div class="col-12 d-flex flex-column row-gap-2">
+                                                    <label for="file">Foto</label>
+                                                    <input type="file" id="file" name="file">
+                                                </div>
+                                                <div class="privacy col-12">
+                                                    <label><input type="checkbox" value="yes" name="privacy-accepted"> Seleziona per proseguire</label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button type="button" class="btn btn-primary">Salva</button>
+                                                    <button type="button" class="btn btn-warning">Svuota</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 col-lg-6 d-flex flex-column">
