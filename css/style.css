@@ -12,11 +12,38 @@ a {
     text-decoration: none;
 }
 
+.number-classroom a {
+    color: #6C757D;
+}
+
+/* Utils */
+.border-bot {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgray;
+}
+
+.btn-action {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #6C757D;
+    border-radius: 5px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
 /* !Header */
 header {
     height: 70px;
 }
 
+/* Navbar */
 .navbar > div {
     background-color: white;
 }
@@ -99,7 +126,7 @@ flex-grow: 1;
 overflow: auto;
 }
 
-/* Header-main */
+/* Header main-content */
 .header-main {
     padding: 20px 0;
     background-color: #1B72E8;
@@ -115,4 +142,18 @@ overflow: auto;
 .badge.plan {
     position: relative;
     bottom: 3px;
+}
+
+/* Tabella classi */
+#table-classroom .card {
+    border: 1px solid lightgray;
+}
+
+/* Intestazione classi */
+.card-body.title-classroom {
+    background-color: #F7F7F7;
+}
+
+.number-classroom .logo-classroom {
+    width: 30px;
 }
