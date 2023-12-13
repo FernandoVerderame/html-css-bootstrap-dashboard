@@ -152,6 +152,8 @@ overflow: auto;
 /* Intestazione classi */
 .card-body.title-classroom {
     background-color: #F7F7F7;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
 }
 
 .number-classroom .logo-classroom {
@@ -161,11 +163,15 @@ overflow: auto;
 /* Sezione FAQ */
 .card-body.title-faq {
     background-color: #F7F7F7;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
 }
 
 /* Sezione TODO list */
 .card-body.title-todo {
     background-color: #F7F7F7;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
 }
 
 /* Sezione grafico */
