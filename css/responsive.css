@@ -18,4 +18,10 @@
         left: 2px;
     }
 }
+
+@media screen and (min-width: 1400px){
+    .offcanvas {
+        width: 1000px;
+    }
+}
     
