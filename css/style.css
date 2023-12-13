@@ -157,3 +157,8 @@ overflow: auto;
 .number-classroom .logo-classroom {
     width: 30px;
 }
+
+/* Sezione FAQ */
+.card-body.title-faq {
+    background-color: #F7F7F7;
+}
