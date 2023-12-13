@@ -162,3 +162,8 @@ overflow: auto;
 .card-body.title-faq {
     background-color: #F7F7F7;
 }
+
+/* Sezione TODO list */
+.card-body.title-todo {
+    background-color: #F7F7F7;
+}
