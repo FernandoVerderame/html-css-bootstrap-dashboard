@@ -19,9 +19,8 @@
     }
 }
 
-@media screen and (min-width: 1400px){
-    .offcanvas {
-        width: 1000px;
+@media screen and (min-width: 1200px) {
+    .offcanvas.offcanvas-width {
+        width: 70vw;
     }
 }
-    

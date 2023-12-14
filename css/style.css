@@ -183,6 +183,10 @@ overflow: auto;
     overflow: auto;
 } 
 
+.offcanvas.offcanvas-width {
+    width: 100vw;
+}
+
 /* Tabella classi */
 #table-classroom .card {
     border: 1px solid lightgray;
